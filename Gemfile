@@ -20,8 +20,8 @@ gem "acts_as_follower", github: "thepracticaldev/acts_as_follower", branch: "mas
 gem "administrate", "~> 0.9"
 gem "ahoy_email", "~> 0.5"
 gem "airbrake", "~> 5.8"
-gem "algoliasearch-rails", "~> 1.20"
-gem "algorithmia", "~> 1.0"
+gem "algoliasearch-rails", "~> 1.20", ">= 1.20.4"
+gem "algorithmia", "~> 1.1", ">= 1.1.0"
 gem "ancestry", "~> 3.0"
 gem "autoprefixer-rails", "~> 6.7"
 gem "aws-sdk-lambda", "~> 1.5" # Just Lambda. For more, install aws-sdk gem
@@ -43,7 +43,7 @@ gem "fastly-rails", "~> 0.8"
 gem "feedjira", "~> 2.1"
 gem "figaro", "~> 1.1"
 gem "flipflop", "~> 2.3"
-gem "fog", "~> 1.41"
+gem "fog", "~> 1.42", ">= 1.42.0"
 gem "front_matter_parser", "~> 0.1"
 gem "gibbon", "~> 2.2"
 gem "google-api-client", "~> 0.19"
@@ -72,14 +72,14 @@ gem "rack-timeout", "~> 0.5"
 gem "rails", "~> 5.1"
 gem "rails-assets-airbrake-js-client", "~> 0.9", source: "https://rails-assets.org"
 gem "rails-observers", "~> 0.1"
-gem "recaptcha", "~> 4.6", require: "recaptcha/rails"
+gem "recaptcha", "4.6.4"
 gem "redcarpet", "~> 3.4"
 gem "reverse_markdown", "~> 1.0"
 gem "rolify", "~> 5.2"
 gem "rouge", "~> 3.1"
 gem "s3_direct_upload", "~> 0.1"
 gem "sass-rails", "~> 5.0"
-gem "sdoc", "~> 0.4", group: :doc
+gem "sdoc", "~> 1.0", ">= 1.0.0", group: :doc
 gem "serviceworker-rails", "~> 0.5"
 gem "share_meow_client", "~> 0.1"
 gem "skylight", "~> 2.0"
@@ -142,7 +142,7 @@ group :test do
   gem "ruby-prof", "~> 0.17", require: false
   gem "selenium-webdriver", "~> 3.12"
   gem "shoulda-matchers", "~> 3.1", require: false
-  gem "simplecov", "~> 0.16", require: false
+  gem "simplecov", "~> 0.16", ">= 0.16.1", require: false
   gem "sinatra", "~> 2.0"
   gem "stackprof", "~> 0.2", require: false, platforms: :ruby
   gem "stripe-ruby-mock", "~> 2.5", require: "stripe_mock"
