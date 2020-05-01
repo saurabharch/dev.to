@@ -13,7 +13,9 @@
     "test:watch": "jest app/javascript/ --watch",
     "storybook": "start-storybook -p 6006 -c app/javascript/.storybook -s app/javascript/.storybook/assets",
     "build-storybook": "build-storybook -c app/javascript/.storybook -s app/javascript/.storybook/assets",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -96,6 +98,8 @@
     "preact-textarea-autosize": "^4.0.7",
     "prop-types": "^15.6.2",
     "pusher-js": "^4.3.0",
-    "twilio-video": "^1.10.0"
-  }
+    "twilio-video": "^1.10.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
