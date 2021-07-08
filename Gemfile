@@ -79,7 +79,7 @@ gem "rolify", "~> 5.2"
 gem "rouge", "~> 3.1"
 gem "s3_direct_upload", "~> 0.1"
 gem "sass-rails", "~> 5.0"
-gem "sdoc", "~> 0.4", group: :doc
+gem "sdoc", "~> 1.0", ">= 1.0.0", group: :doc
 gem "serviceworker-rails", "~> 0.5"
 gem "share_meow_client", "~> 0.1"
 gem "skylight", "~> 2.0"
