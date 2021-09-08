@@ -100,7 +100,7 @@ gem "webpacker", "~> 3.5"
 gem "webpush", "~> 0.3"
 
 group :development do
-  gem "better_errors", "~> 2.5"
+  gem "better_errors", "~> 2.8", ">= 2.8.0"
   gem "binding_of_caller", "~> 0.8"
   gem "brakeman", "~> 4.3", require: false
   gem "bullet", "~> 5.7"
