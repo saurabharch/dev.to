@@ -24,7 +24,7 @@ gem "algoliasearch-rails", "~> 1.20"
 gem "algorithmia", "~> 1.0"
 gem "ancestry", "~> 3.0"
 gem "autoprefixer-rails", "~> 6.7"
-gem "aws-sdk-lambda", "~> 1.5" # Just Lambda. For more, install aws-sdk gem
+gem "aws-sdk-lambda", "~> 1.5", ">= 1.5.0" # Just Lambda. For more, install aws-sdk gem
 gem "bourbon", "~> 1.4"
 gem "buffer", github: "bufferapp/buffer-ruby"
 gem "carrierwave", "~> 1.2"
