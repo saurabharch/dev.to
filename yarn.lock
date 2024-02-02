@@ -403,14 +403,6 @@
     react-split-pane "^0.1.77"
     react-treebeard "^2.1.0"
 
-"@twilio/sip.js@^0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@twilio/sip.js/-/sip.js-0.7.7.tgz#cff50f66f9b295d46f219737b72780c7d0e6df52"
-
-"@twilio/webrtc@twilio/twilio-webrtc.js#2.0.1-rc1":
-  version "2.0.1-rc1"
-  resolved "https://codeload.github.com/twilio/twilio-webrtc.js/tar.gz/3532058a5083e69b6ce1ae2984dd59ad5c864f29"
-
 "@types/jest@^23.0.0":
   version "23.3.1"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.1.tgz#a4319aedb071d478e6f407d1c4578ec8156829cf"
@@ -815,10 +807,6 @@ async-foreach@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/async-foreach/-/async-foreach-0.1.3.tgz#36121f845c0578172de419a97dbeb1d16ec34542"
 
-async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
-
 async@^1.4.0, async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
@@ -875,6 +863,11 @@ autoprefixer@^7.2.6:
     num2fraction "^1.2.2"
     postcss "^6.0.17"
     postcss-value-parser "^3.2.3"
+
+available-typed-arrays@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.6.tgz#ac812d8ce5a6b976d738e1c45f08d0b00bc7d725"
+  integrity sha512-j1QzY8iPNPG4o4xmO3ptzpRxTciqD3MgEHtifP/YnJpIo58Xu+ne4BejlbkuaLfXn/nz6HFiw29bLpj2PNMdGg==
 
 aws-sign2@~0.6.0:
   version "0.6.0"
@@ -2187,6 +2180,15 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+call-bind@^1.0.2, call-bind@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.5.tgz#6fa2b7845ce0ea49bf4d8b9ef64727a2c2e2e513"
+  integrity sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==
+  dependencies:
+    function-bind "^1.1.2"
+    get-intrinsic "^1.2.1"
+    set-function-length "^1.1.1"
+
 caller-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/caller-path/-/caller-path-0.1.0.tgz#94085ef63581ecd3daa92444a8fe94e82577751f"
@@ -3017,6 +3019,15 @@ default-require-extensions@^2.0.0:
   dependencies:
     strip-bom "^3.0.0"
 
+define-data-property@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/define-data-property/-/define-data-property-1.1.1.tgz#c35f7cd0ab09883480d12ac5cb213715587800b3"
+  integrity sha512-E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==
+  dependencies:
+    get-intrinsic "^1.2.1"
+    gopd "^1.0.1"
+    has-property-descriptors "^1.0.0"
+
 define-properties@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
@@ -3710,6 +3721,11 @@ events@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/events/-/events-2.1.0.tgz#2a9a1e18e6106e0e812aa9ebd4a819b3c29c0ba5"
 
+events@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
 eventsource@0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-0.1.6.tgz#0acede849ed7dd1ccc32c811bb11b944d4f29232"
@@ -4092,6 +4108,13 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
+for-each@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.3.tgz#69b447e88a0a5d32c3e7084f3f1710034b21376e"
+  integrity sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==
+  dependencies:
+    is-callable "^1.1.3"
+
 for-in@^0.1.3:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
@@ -4236,6 +4259,11 @@ function-bind@^1.0.2, function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
+function-bind@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
+  integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
+
 function.prototype.name@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function.prototype.name/-/function.prototype.name-1.1.0.tgz#8bd763cc0af860a859cc5d49384d74b932cd2327"
@@ -4274,6 +4302,16 @@ gaze@^1.0.0:
 get-caller-file@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz#f702e63127e7e231c160a80c1554acb70d5047e5"
+
+get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.2.2.tgz#281b7622971123e1ef4b3c90fd7539306da93f3b"
+  integrity sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==
+  dependencies:
+    function-bind "^1.1.2"
+    has-proto "^1.0.1"
+    has-symbols "^1.0.3"
+    hasown "^2.0.0"
 
 get-own-enumerable-property-symbols@^2.0.1:
   version "2.0.1"
@@ -4431,6 +4469,13 @@ globule@^1.0.0:
     lodash "~4.17.4"
     minimatch "~3.0.2"
 
+gopd@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.0.1.tgz#29ff76de69dac7489b7c0918a5788e56477c332c"
+  integrity sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==
+  dependencies:
+    get-intrinsic "^1.1.3"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -4506,9 +4551,33 @@ has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
 
+has-property-descriptors@^1.0.0, has-property-descriptors@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/has-property-descriptors/-/has-property-descriptors-1.0.1.tgz#52ba30b6c5ec87fd89fa574bc1c39125c6f65340"
+  integrity sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==
+  dependencies:
+    get-intrinsic "^1.2.2"
+
+has-proto@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/has-proto/-/has-proto-1.0.1.tgz#1885c1305538958aff469fef37937c22795408e0"
+  integrity sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==
+
 has-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
+
+has-symbols@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.3.tgz#bb7b2c4349251dce87b125f7bdf874aa7c8b39f8"
+  integrity sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
+
+has-tostringtag@^1.0.0, has-tostringtag@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz#2cdc42d40bef2e5b4eeab7c01a73c54ce7ab5abc"
+  integrity sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==
+  dependencies:
+    has-symbols "^1.0.3"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -4572,6 +4641,13 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.0"
+
+hasown@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.0.tgz#f4c513d454a57b7c7e1650778de226b11700546c"
+  integrity sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==
+  dependencies:
+    function-bind "^1.1.2"
 
 hawk@3.1.3, hawk@~3.1.3:
   version "3.1.3"
@@ -4980,6 +5056,14 @@ is-accessor-descriptor@^1.0.0:
   dependencies:
     kind-of "^6.0.0"
 
+is-arguments@^1.0.4:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/is-arguments/-/is-arguments-1.1.1.tgz#15b3f88fda01f2a97fec84ca761a560f123efa9b"
+  integrity sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==
+  dependencies:
+    call-bind "^1.0.2"
+    has-tostringtag "^1.0.0"
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
@@ -5106,6 +5190,13 @@ is-generator-fn@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-generator-fn/-/is-generator-fn-1.0.0.tgz#969d49e1bb3329f6bb7f09089be26578b2ddd46a"
 
+is-generator-function@^1.0.7:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/is-generator-function/-/is-generator-function-1.0.10.tgz#f1558baf1ac17e0deea7c0415c438351ff2b3c72"
+  integrity sha512-jsEjy9l3yiXEQ+PsXdmBwEPcOxaXWLspKdplFUVI9vq1iZgIekeC0L167qeu86czQaxed3q/Uzuw0swL0irL8A==
+  dependencies:
+    has-tostringtag "^1.0.0"
+
 is-glob@^2.0.0, is-glob@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-2.0.1.tgz#d096f926a3ded5600f3fdfd91198cb0888c2d863"
@@ -5225,6 +5316,13 @@ is-svg@^2.0.0:
 is-symbol@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-symbol/-/is-symbol-1.0.1.tgz#3cc59f00025194b6ab2e38dbae6689256b660572"
+
+is-typed-array@^1.1.3:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/is-typed-array/-/is-typed-array-1.1.13.tgz#d6c5ca56df62334959322d7d7dd1cca50debe229"
+  integrity sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==
+  dependencies:
+    which-typed-array "^1.1.14"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -8892,6 +8990,17 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
+set-function-length@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/set-function-length/-/set-function-length-1.2.0.tgz#2f81dc6c16c7059bda5ab7c82c11f03a515ed8e1"
+  integrity sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==
+  dependencies:
+    define-data-property "^1.1.1"
+    function-bind "^1.1.2"
+    get-intrinsic "^1.2.2"
+    gopd "^1.0.1"
+    has-property-descriptors "^1.0.1"
+
 set-immediate-shim@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
@@ -9652,13 +9761,14 @@ tweetnacl@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.0.tgz#713d8b818da42068740bf68386d0479e66fc8a7b"
 
-twilio-video@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/twilio-video/-/twilio-video-1.10.0.tgz#5345f7b664a815a0fc35b99820cdfe19984ae56f"
+twilio-video@^2.28.1:
+  version "2.28.1"
+  resolved "https://registry.yarnpkg.com/twilio-video/-/twilio-video-2.28.1.tgz#e955c4d077c147bb59d3eb88cecca3518489ff21"
+  integrity sha512-q87gLqwPfpfAchLa1KIL58MBMxOZwUFPfZUYBoMH9P2kSG0+42Y+eKCJ192u7eFit7iDY32nzF/TkYBxXAcvIA==
   dependencies:
-    "@twilio/sip.js" "^0.7.7"
-    "@twilio/webrtc" twilio/twilio-webrtc.js#2.0.1-rc1
-    ws "^3.3.1"
+    events "^3.3.0"
+    util "^0.12.4"
+    ws "^7.4.6"
     xmlhttprequest "^1.8.0"
 
 type-check@~0.3.2:
@@ -9740,10 +9850,6 @@ uglifyjs-webpack-plugin@^1.2.4, uglifyjs-webpack-plugin@^1.2.5:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
-
-ultron@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
 
 union-value@^1.0.0:
   version "1.0.0"
@@ -9867,6 +9973,17 @@ util@0.10.3, util@^0.10.3:
   resolved "https://registry.yarnpkg.com/util/-/util-0.10.3.tgz#7afb1afe50805246489e3db7fe0ed379336ac0f9"
   dependencies:
     inherits "2.0.1"
+
+util@^0.12.4:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/util/-/util-0.12.5.tgz#5f17a6059b73db61a875668781a1c2b136bd6fbc"
+  integrity sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==
+  dependencies:
+    inherits "^2.0.3"
+    is-arguments "^1.0.4"
+    is-generator-function "^1.0.7"
+    is-typed-array "^1.1.3"
+    which-typed-array "^1.1.2"
 
 utila@~0.3:
   version "0.3.3"
@@ -10115,6 +10232,17 @@ which-module@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
 
+which-typed-array@^1.1.14, which-typed-array@^1.1.2:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.14.tgz#1f78a111aee1e131ca66164d8bdc3ab062c95a06"
+  integrity sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==
+  dependencies:
+    available-typed-arrays "^1.0.6"
+    call-bind "^1.0.5"
+    for-each "^0.3.3"
+    gopd "^1.0.1"
+    has-tostringtag "^1.0.1"
+
 which@1, which@^1.2.10, which@^1.2.12, which@^1.2.9, which@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
@@ -10180,13 +10308,10 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@^3.3.1:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
-  dependencies:
-    async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
+ws@^7.4.6:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 xml-char-classes@^1.0.0:
   version "1.0.0"
