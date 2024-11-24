@@ -143,7 +143,7 @@ group :test do
   gem "selenium-webdriver", "~> 3.12"
   gem "shoulda-matchers", "~> 3.1", require: false
   gem "simplecov", "~> 0.16", require: false
-  gem "sinatra", "~> 2.0"
+  gem "sinatra", "~> 4.1", ">= 4.1.0"
   gem "stackprof", "~> 0.2", require: false, platforms: :ruby
   gem "stripe-ruby-mock", "~> 2.5", require: "stripe_mock"
   gem "test-prof", "~> 0.5"
